@@ -1,0 +1,53 @@
+Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+> cuda memory allocated: 44781056
+> n_trainable_params: 11181642, n_nontrainable_params: 0
+> training arguments:
+>>> dataset: cifar10
+>>> data_dir: data
+>>> num_epoch: 500
+>>> batch_size: 128
+>>> resize: 256
+>>> gpus: 0
+>>> seed: 7890
+>>> lr: 0.01
+>>> no_data_aug: False
+>>> cutout: False
+>>> autoaug: False
+>>> default_directory: drive/app/torch/save_models
+>>> optimizer: SGD
+>>> device: cuda:2
+>>> log_name: cifar10_23-06-04_17-43-06.log
+1/500 - 0.20%
+[train] loss: 0.0024, acc: 44.96, err: 55.04
+[test] loss: 0.0121, acc: 57.16, err: 42.84
+2/500 - 0.40%
+[train] loss: 0.0020, acc: 59.55, err: 40.45
+[test] loss: 0.0101, acc: 64.79, err: 35.21
+3/500 - 0.60%
+[train] loss: 0.0018, acc: 64.84, err: 35.16
+[test] loss: 0.0091, acc: 68.69, err: 31.31
+4/500 - 0.80%
+[train] loss: 0.0016, acc: 68.12, err: 31.88
+[test] loss: 0.0083, acc: 70.95, err: 29.05
+5/500 - 1.00%
+[train] loss: 0.0015, acc: 70.34, err: 29.66
+[test] loss: 0.0077, acc: 72.65, err: 27.35
+6/500 - 1.20%
+[train] loss: 0.0014, acc: 71.83, err: 28.17
+[test] loss: 0.0075, acc: 74.02, err: 25.98
+7/500 - 1.40%
+[train] loss: 0.0014, acc: 73.10, err: 26.90
+[test] loss: 0.0073, acc: 74.74, err: 25.26
+8/500 - 1.60%
+[train] loss: 0.0014, acc: 73.96, err: 26.04
+[test] loss: 0.0069, acc: 76.30, err: 23.70
+9/500 - 1.80%
+[train] loss: 0.0013, acc: 75.24, err: 24.76
+[test] loss: 0.0066, acc: 77.02, err: 22.98
+10/500 - 2.00%
+[train] loss: 0.0012, acc: 75.96, err: 24.04
+[test] loss: 0.0065, acc: 77.53, err: 22.47
+11/500 - 2.20%
+[train] loss: 0.0012, acc: 77.00, err: 23.00
+[test] loss: 0.0067, acc: 76.88, err: 23.12

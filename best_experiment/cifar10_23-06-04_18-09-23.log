@@ -1,0 +1,30 @@
+> cuda memory allocated: 44781056
+> n_trainable_params: 11181642, n_nontrainable_params: 0
+> training arguments:
+>>> dataset: cifar10
+>>> data_dir: data
+>>> num_epoch: 500
+>>> batch_size: 128
+>>> resize: 256
+>>> gpus: 0
+>>> seed: 7890
+>>> lr: 0.01
+>>> default_directory: drive/app/torch/save_models
+>>> optimizer: SGD
+>>> device: cuda:2
+>>> log_name: cifar10_23-06-04_18-09-23.log
+1/500 - 0.20%
+[train] loss: 0.0004, acc: 86.50, err: 13.50
+[test] loss: 0.0024, acc: 91.61, err: 8.39
+2/500 - 0.40%
+[train] loss: 0.0003, acc: 93.84, err: 6.16
+[test] loss: 0.0019, acc: 93.55, err: 6.45
+3/500 - 0.60%
+[train] loss: 0.0002, acc: 95.58, err: 4.42
+[test] loss: 0.0019, acc: 93.83, err: 6.17
+4/500 - 0.80%
+[train] loss: 0.0002, acc: 96.61, err: 3.39
+[test] loss: 0.0019, acc: 94.18, err: 5.82
+5/500 - 1.00%
+[train] loss: 0.0001, acc: 97.60, err: 2.40
+[test] loss: 0.0019, acc: 94.31, err: 5.69

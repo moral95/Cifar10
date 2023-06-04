@@ -1,0 +1,28 @@
+Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+> cuda memory allocated: 44781056
+> n_trainable_params: 11181642, n_nontrainable_params: 0
+> training arguments:
+>>> dataset: cifar10
+>>> data_dir: data
+>>> num_epoch: 500
+>>> batch_size: 128
+>>> resize: 224
+>>> gpus: 0
+>>> seed: 7890
+>>> lr: 0.001
+>>> weight_decay: 0.0
+>>> clip_norm: 50
+>>> no_data_aug: False
+>>> cutout: True
+>>> autoaug: True
+>>> default_directory: drive/app/torch/save_models
+>>> optimizer: adam
+>>> device: cuda:2
+>>> log_name: cifar10_23-06-04_16-38-44.log
+1/500 - 0.20%
+[train] loss: 0.0039, acc: 18.77, err: 81.23
+[test] loss: 0.0202, acc: 29.82, err: 70.18
+2/500 - 0.40%
+[train] loss: 0.0037, acc: 27.16, err: 72.84
+[test] loss: 0.0182, acc: 38.24, err: 61.76
