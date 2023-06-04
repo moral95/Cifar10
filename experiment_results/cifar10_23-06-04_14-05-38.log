@@ -1,0 +1,324 @@
+Loading pretrained weights from Hugging Face hub (timm/resnet18.a1_in1k)
+[timm/resnet18.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+> cuda memory allocated: 44781056
+> n_trainable_params: 11181642, n_nontrainable_params: 0
+> training arguments:
+>>> dataset: cifar10
+>>> data_dir: data
+>>> num_epoch: 100
+>>> batch_size: 128
+>>> resize: 224
+>>> gpus: 0
+>>> seed: 7890
+>>> lr: 5e-05
+>>> weight_decay: 0.5
+>>> clip_norm: 50
+>>> no_data_aug: False
+>>> cutout: True
+>>> autoaug: True
+>>> default_directory: drive/app/torch/save_models
+>>> optimizer: adam
+>>> device: cuda:2
+>>> log_name: cifar10_23-06-04_14-05-38.log
+1/100 - 1.00%
+[train] loss: 0.0041, acc: 12.80, err: 87.20
+[test] loss: 0.0226, acc: 17.32, err: 82.68
+2/100 - 2.00%
+[train] loss: 0.0041, acc: 18.59, err: 81.41
+[test] loss: 0.0219, acc: 25.68, err: 74.32
+3/100 - 3.00%
+[train] loss: 0.0040, acc: 23.26, err: 76.74
+[test] loss: 0.0216, acc: 31.27, err: 68.73
+4/100 - 4.00%
+[train] loss: 0.0040, acc: 25.25, err: 74.75
+[test] loss: 0.0214, acc: 33.03, err: 66.97
+5/100 - 5.00%
+[train] loss: 0.0040, acc: 26.46, err: 73.54
+[test] loss: 0.0213, acc: 34.39, err: 65.61
+6/100 - 6.00%
+[train] loss: 0.0040, acc: 26.63, err: 73.37
+[test] loss: 0.0213, acc: 34.77, err: 65.23
+7/100 - 7.00%
+[train] loss: 0.0040, acc: 26.09, err: 73.91
+[test] loss: 0.0213, acc: 35.05, err: 64.95
+8/100 - 8.00%
+[train] loss: 0.0040, acc: 26.29, err: 73.71
+[test] loss: 0.0214, acc: 34.45, err: 65.55
+9/100 - 9.00%
+[train] loss: 0.0040, acc: 25.86, err: 74.14
+[test] loss: 0.0214, acc: 34.67, err: 65.33
+10/100 - 10.00%
+[train] loss: 0.0040, acc: 25.27, err: 74.73
+[test] loss: 0.0214, acc: 33.83, err: 66.17
+11/100 - 11.00%
+[train] loss: 0.0040, acc: 24.87, err: 75.13
+[test] loss: 0.0215, acc: 34.02, err: 65.98
+12/100 - 12.00%
+[train] loss: 0.0040, acc: 24.63, err: 75.37
+[test] loss: 0.0216, acc: 32.89, err: 67.11
+13/100 - 13.00%
+[train] loss: 0.0040, acc: 24.07, err: 75.93
+[test] loss: 0.0215, acc: 33.52, err: 66.48
+14/100 - 14.00%
+[train] loss: 0.0041, acc: 23.65, err: 76.35
+[test] loss: 0.0216, acc: 33.09, err: 66.91
+15/100 - 15.00%
+[train] loss: 0.0041, acc: 23.55, err: 76.45
+[test] loss: 0.0217, acc: 32.86, err: 67.14
+16/100 - 16.00%
+[train] loss: 0.0041, acc: 22.74, err: 77.26
+[test] loss: 0.0217, acc: 32.59, err: 67.41
+17/100 - 17.00%
+[train] loss: 0.0041, acc: 22.51, err: 77.49
+[test] loss: 0.0217, acc: 31.84, err: 68.16
+18/100 - 18.00%
+[train] loss: 0.0041, acc: 22.59, err: 77.41
+[test] loss: 0.0216, acc: 31.50, err: 68.50
+19/100 - 19.00%
+[train] loss: 0.0041, acc: 22.63, err: 77.37
+[test] loss: 0.0216, acc: 32.22, err: 67.78
+20/100 - 20.00%
+[train] loss: 0.0041, acc: 22.48, err: 77.52
+[test] loss: 0.0216, acc: 31.71, err: 68.29
+21/100 - 21.00%
+[train] loss: 0.0041, acc: 22.36, err: 77.64
+[test] loss: 0.0216, acc: 31.89, err: 68.11
+22/100 - 22.00%
+[train] loss: 0.0041, acc: 22.19, err: 77.81
+[test] loss: 0.0216, acc: 31.83, err: 68.17
+23/100 - 23.00%
+[train] loss: 0.0041, acc: 22.15, err: 77.85
+[test] loss: 0.0216, acc: 31.61, err: 68.39
+24/100 - 24.00%
+[train] loss: 0.0041, acc: 22.27, err: 77.73
+[test] loss: 0.0216, acc: 31.44, err: 68.56
+25/100 - 25.00%
+[train] loss: 0.0041, acc: 22.06, err: 77.94
+[test] loss: 0.0216, acc: 31.63, err: 68.37
+26/100 - 26.00%
+[train] loss: 0.0041, acc: 22.10, err: 77.90
+[test] loss: 0.0216, acc: 31.28, err: 68.72
+27/100 - 27.00%
+[train] loss: 0.0041, acc: 22.38, err: 77.62
+[test] loss: 0.0216, acc: 31.43, err: 68.57
+28/100 - 28.00%
+[train] loss: 0.0041, acc: 22.26, err: 77.74
+[test] loss: 0.0215, acc: 30.82, err: 69.18
+29/100 - 29.00%
+[train] loss: 0.0041, acc: 22.19, err: 77.81
+[test] loss: 0.0216, acc: 30.87, err: 69.13
+30/100 - 30.00%
+[train] loss: 0.0041, acc: 22.10, err: 77.90
+[test] loss: 0.0215, acc: 31.03, err: 68.97
+31/100 - 31.00%
+[train] loss: 0.0041, acc: 21.79, err: 78.21
+[test] loss: 0.0216, acc: 31.10, err: 68.90
+32/100 - 32.00%
+[train] loss: 0.0041, acc: 21.94, err: 78.06
+[test] loss: 0.0216, acc: 31.31, err: 68.69
+33/100 - 33.00%
+[train] loss: 0.0041, acc: 21.86, err: 78.14
+[test] loss: 0.0216, acc: 30.96, err: 69.04
+34/100 - 34.00%
+[train] loss: 0.0041, acc: 22.09, err: 77.91
+[test] loss: 0.0215, acc: 30.78, err: 69.22
+35/100 - 35.00%
+[train] loss: 0.0041, acc: 22.15, err: 77.85
+[test] loss: 0.0216, acc: 31.14, err: 68.86
+36/100 - 36.00%
+[train] loss: 0.0041, acc: 22.31, err: 77.69
+[test] loss: 0.0216, acc: 31.27, err: 68.73
+37/100 - 37.00%
+[train] loss: 0.0041, acc: 21.92, err: 78.08
+[test] loss: 0.0215, acc: 30.75, err: 69.25
+38/100 - 38.00%
+[train] loss: 0.0041, acc: 21.67, err: 78.33
+[test] loss: 0.0216, acc: 30.80, err: 69.20
+39/100 - 39.00%
+[train] loss: 0.0041, acc: 21.80, err: 78.20
+[test] loss: 0.0216, acc: 31.14, err: 68.86
+40/100 - 40.00%
+[train] loss: 0.0041, acc: 21.67, err: 78.33
+[test] loss: 0.0216, acc: 31.38, err: 68.62
+41/100 - 41.00%
+[train] loss: 0.0041, acc: 22.05, err: 77.95
+[test] loss: 0.0215, acc: 30.82, err: 69.18
+42/100 - 42.00%
+[train] loss: 0.0041, acc: 22.20, err: 77.80
+[test] loss: 0.0216, acc: 30.83, err: 69.17
+43/100 - 43.00%
+[train] loss: 0.0041, acc: 21.90, err: 78.10
+[test] loss: 0.0216, acc: 30.83, err: 69.17
+44/100 - 44.00%
+[train] loss: 0.0041, acc: 22.20, err: 77.80
+[test] loss: 0.0216, acc: 30.89, err: 69.11
+45/100 - 45.00%
+[train] loss: 0.0041, acc: 21.78, err: 78.22
+[test] loss: 0.0215, acc: 31.16, err: 68.84
+46/100 - 46.00%
+[train] loss: 0.0041, acc: 22.01, err: 77.99
+[test] loss: 0.0215, acc: 30.50, err: 69.50
+47/100 - 47.00%
+[train] loss: 0.0041, acc: 21.93, err: 78.07
+[test] loss: 0.0215, acc: 30.47, err: 69.53
+48/100 - 48.00%
+[train] loss: 0.0041, acc: 22.00, err: 78.00
+[test] loss: 0.0216, acc: 30.97, err: 69.03
+49/100 - 49.00%
+[train] loss: 0.0041, acc: 21.70, err: 78.30
+[test] loss: 0.0216, acc: 30.79, err: 69.21
+50/100 - 50.00%
+[train] loss: 0.0041, acc: 22.11, err: 77.89
+[test] loss: 0.0215, acc: 31.07, err: 68.93
+51/100 - 51.00%
+[train] loss: 0.0041, acc: 22.30, err: 77.70
+[test] loss: 0.0216, acc: 30.67, err: 69.33
+52/100 - 52.00%
+[train] loss: 0.0041, acc: 22.11, err: 77.89
+[test] loss: 0.0215, acc: 30.85, err: 69.15
+53/100 - 53.00%
+[train] loss: 0.0041, acc: 21.94, err: 78.06
+[test] loss: 0.0215, acc: 30.98, err: 69.02
+54/100 - 54.00%
+[train] loss: 0.0041, acc: 21.87, err: 78.13
+[test] loss: 0.0216, acc: 31.28, err: 68.72
+55/100 - 55.00%
+[train] loss: 0.0041, acc: 21.87, err: 78.13
+[test] loss: 0.0216, acc: 30.79, err: 69.21
+56/100 - 56.00%
+[train] loss: 0.0041, acc: 22.12, err: 77.88
+[test] loss: 0.0215, acc: 30.82, err: 69.18
+57/100 - 57.00%
+[train] loss: 0.0041, acc: 21.89, err: 78.11
+[test] loss: 0.0216, acc: 30.38, err: 69.62
+58/100 - 58.00%
+[train] loss: 0.0041, acc: 21.44, err: 78.56
+[test] loss: 0.0216, acc: 30.81, err: 69.19
+59/100 - 59.00%
+[train] loss: 0.0041, acc: 21.89, err: 78.11
+[test] loss: 0.0216, acc: 30.81, err: 69.19
+60/100 - 60.00%
+[train] loss: 0.0041, acc: 21.75, err: 78.25
+[test] loss: 0.0215, acc: 30.72, err: 69.28
+61/100 - 61.00%
+[train] loss: 0.0041, acc: 22.01, err: 77.99
+[test] loss: 0.0217, acc: 30.79, err: 69.21
+62/100 - 62.00%
+[train] loss: 0.0041, acc: 21.99, err: 78.01
+[test] loss: 0.0216, acc: 30.97, err: 69.03
+63/100 - 63.00%
+[train] loss: 0.0041, acc: 21.90, err: 78.10
+[test] loss: 0.0216, acc: 31.24, err: 68.76
+64/100 - 64.00%
+[train] loss: 0.0041, acc: 22.14, err: 77.86
+[test] loss: 0.0215, acc: 30.84, err: 69.16
+65/100 - 65.00%
+[train] loss: 0.0041, acc: 22.06, err: 77.94
+[test] loss: 0.0215, acc: 30.66, err: 69.34
+66/100 - 66.00%
+[train] loss: 0.0041, acc: 21.91, err: 78.09
+[test] loss: 0.0215, acc: 30.65, err: 69.35
+67/100 - 67.00%
+[train] loss: 0.0041, acc: 21.88, err: 78.12
+[test] loss: 0.0216, acc: 30.98, err: 69.02
+68/100 - 68.00%
+[train] loss: 0.0041, acc: 21.80, err: 78.20
+[test] loss: 0.0216, acc: 30.87, err: 69.13
+69/100 - 69.00%
+[train] loss: 0.0041, acc: 21.99, err: 78.01
+[test] loss: 0.0215, acc: 30.63, err: 69.37
+70/100 - 70.00%
+[train] loss: 0.0041, acc: 21.73, err: 78.27
+[test] loss: 0.0216, acc: 30.62, err: 69.38
+71/100 - 71.00%
+[train] loss: 0.0041, acc: 21.92, err: 78.08
+[test] loss: 0.0215, acc: 30.89, err: 69.11
+72/100 - 72.00%
+[train] loss: 0.0041, acc: 21.83, err: 78.17
+[test] loss: 0.0216, acc: 31.10, err: 68.90
+73/100 - 73.00%
+[train] loss: 0.0041, acc: 22.02, err: 77.98
+[test] loss: 0.0216, acc: 30.75, err: 69.25
+74/100 - 74.00%
+[train] loss: 0.0041, acc: 22.11, err: 77.89
+[test] loss: 0.0216, acc: 31.19, err: 68.81
+75/100 - 75.00%
+[train] loss: 0.0041, acc: 21.97, err: 78.03
+[test] loss: 0.0216, acc: 31.13, err: 68.87
+76/100 - 76.00%
+[train] loss: 0.0041, acc: 22.07, err: 77.93
+[test] loss: 0.0216, acc: 30.96, err: 69.04
+77/100 - 77.00%
+[train] loss: 0.0041, acc: 22.30, err: 77.70
+[test] loss: 0.0216, acc: 30.52, err: 69.48
+78/100 - 78.00%
+[train] loss: 0.0041, acc: 21.93, err: 78.07
+[test] loss: 0.0215, acc: 30.57, err: 69.43
+79/100 - 79.00%
+[train] loss: 0.0041, acc: 21.86, err: 78.14
+[test] loss: 0.0215, acc: 31.13, err: 68.87
+80/100 - 80.00%
+[train] loss: 0.0041, acc: 21.78, err: 78.22
+[test] loss: 0.0216, acc: 30.83, err: 69.17
+81/100 - 81.00%
+[train] loss: 0.0041, acc: 21.91, err: 78.09
+[test] loss: 0.0216, acc: 30.98, err: 69.02
+82/100 - 82.00%
+[train] loss: 0.0041, acc: 21.88, err: 78.12
+[test] loss: 0.0215, acc: 31.04, err: 68.96
+83/100 - 83.00%
+[train] loss: 0.0041, acc: 21.95, err: 78.05
+[test] loss: 0.0216, acc: 30.49, err: 69.51
+84/100 - 84.00%
+[train] loss: 0.0041, acc: 21.99, err: 78.01
+[test] loss: 0.0215, acc: 30.79, err: 69.21
+85/100 - 85.00%
+[train] loss: 0.0041, acc: 22.18, err: 77.82
+[test] loss: 0.0215, acc: 30.99, err: 69.01
+86/100 - 86.00%
+[train] loss: 0.0041, acc: 22.07, err: 77.93
+[test] loss: 0.0215, acc: 30.97, err: 69.03
+87/100 - 87.00%
+[train] loss: 0.0041, acc: 21.94, err: 78.06
+[test] loss: 0.0216, acc: 30.95, err: 69.05
+88/100 - 88.00%
+[train] loss: 0.0041, acc: 21.87, err: 78.13
+[test] loss: 0.0216, acc: 30.94, err: 69.06
+89/100 - 89.00%
+[train] loss: 0.0041, acc: 22.25, err: 77.75
+[test] loss: 0.0216, acc: 30.95, err: 69.05
+90/100 - 90.00%
+[train] loss: 0.0041, acc: 22.05, err: 77.95
+[test] loss: 0.0215, acc: 30.71, err: 69.29
+91/100 - 91.00%
+[train] loss: 0.0041, acc: 21.92, err: 78.08
+[test] loss: 0.0216, acc: 30.93, err: 69.07
+92/100 - 92.00%
+[train] loss: 0.0041, acc: 21.52, err: 78.48
+[test] loss: 0.0216, acc: 31.07, err: 68.93
+93/100 - 93.00%
+[train] loss: 0.0041, acc: 22.19, err: 77.81
+[test] loss: 0.0216, acc: 30.91, err: 69.09
+94/100 - 94.00%
+[train] loss: 0.0041, acc: 21.88, err: 78.12
+[test] loss: 0.0216, acc: 30.70, err: 69.30
+95/100 - 95.00%
+[train] loss: 0.0041, acc: 21.71, err: 78.29
+[test] loss: 0.0216, acc: 30.49, err: 69.51
+96/100 - 96.00%
+[train] loss: 0.0041, acc: 22.01, err: 77.99
+[test] loss: 0.0216, acc: 30.72, err: 69.28
+97/100 - 97.00%
+[train] loss: 0.0041, acc: 21.64, err: 78.36
+[test] loss: 0.0215, acc: 30.91, err: 69.09
+98/100 - 98.00%
+[train] loss: 0.0041, acc: 21.67, err: 78.33
+[test] loss: 0.0216, acc: 30.85, err: 69.15
+99/100 - 99.00%
+[train] loss: 0.0041, acc: 21.89, err: 78.11
+[test] loss: 0.0216, acc: 31.04, err: 68.96
+100/100 - 100.00%
+[train] loss: 0.0041, acc: 22.03, err: 77.97
+[test] loss: 0.0215, acc: 30.80, err: 69.20
+best loss: 0.0213, best acc: 35.05, best err: 64.95
+log saved: cifar10_23-06-04_14-05-38.log
